@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC>
+
+<Html>
+<head>
+	<meta charset="utf-8">
+	<title>  Code d'acces   </title>	
+	<link rel="stylesheet" type="text/css" href="antre.css">
+</head>
+<body>  
+	<div align="center">
+	<h1> INSTITUTION NOUVELLE SOURCE </h1>	
+</div>
+	<div  align="center">
+		<fieldset >
+	
+	<form action="INS.html" id="form" >
+
+
+		<div>
+			<input type="text" name="name" id="name" placeholder="NOM"   class="ou"   required />
+		</div>
+
+
+		<div>
+			<input type="text" name="prenom" placeholder="Prenom" id="prenom" class="prenom" required />
+		</div>
+
+
+		<div>	
+			<input type="email" name="email" id="mail" placeholder="****@gmail.com" class="ui" required/>
+				
+        </div>
+    
+
+        <div > 
+        	
+        	<input type="password" name="code" id="code" placeholder="code ID" class="oi">
+        	
+        </div>
+        <div>
+        	<input type="submit" class="yh" id="Envoyer" value="Envoyer"  />
+        </div>
+
+	 </form>
+
+	</fieldset>
+	
+	
+
+	<div align="center" class="qw">  
+		<table border="5" width="25%" height="20%" class="bon">
+		<tr>
+			<th class="tete"> <h1> Voici l'horaire des differentes classes </h1> </th>
+		</tr>
+
+		<tr class="vn"> 
+			<td> <a href="ESSSAI.HTML"> 7em </a> cliquer et recever votre horaire </td> 
+		</tr>
+
+		<tr class="vm"> <td> <a href="ESSSAI.HTML"> 8em </a> cliquer et recever votre horaire  </td> 
+		</tr>
+
+		<tr class="vc">  <td> <a href="ESSSAI.HTML"> 9em </a>cliquer et recever votre horaire  </td>
+		</tr>
+
+		<tr class="cv"> <td> <a href="ESSSAI.HTML"> NS1 </a> cliquer et recever votre horaire </td>
+		</tr>
+
+		<tr class="er"> <td> <a href="ESSSAI.HTML"> NS2 </a> cliquer et recever votre horaire </td>
+		</tr>
+
+		<tr class="re" id="as"> <td> <a href="ESSSAI.HTML"> NS3 </a> cliquer et recever votre horaire </td>
+		</tr>
+
+		<tr class="we"> <td> <a href="ESSSAI.HTML"> NS4 </a>cliquer et recever votre horaire  </td>
+		</tr>
+
+	</table>
+</div>
+
+<script type="text/javascript">
+
+ var submit= document.getElementById('Envoyer');
+
+	submit.addEventListener("click", function(e) {
+
+		eass();
+		e.preventDefault();
+});
+
+function eass() 
+{
+	var name = document.getElementById('name').value;
+	var prenom = document.getElementById('prenom').value;
+	var email = document.getElementById('mail').value;
+	var id = document.getElementById('code').value;
+	var form = document.getElementById('form');
+	var codeId = ("STD-3061");
+ 
+	if (isNaN(name) == false) 
+	{
+		alert("non tu ne peut pas avoir un chiffre dans ton nom");
+	} else if(isNaN(prenom) == false) 
+	{  alert("non tu ne peut pas avoir un chiffre dans ton prenom");
+	
+	} else if (name.length < 2)
+	{
+		alert("Votre nom ne peut pas etre si court");
+	} else if( prenom.length == 2 )
+	{
+		alert(" Votre prenom ne peut pas etre si court");
+	} else if( name == prenom)
+	{
+		alert("vous ne pouvez pas mettre deux nom");
+	} else if (email.length <=0  ){
+		alert("IL n'y a pas de mail");
+    }	 else if(id.length <= 0){
+		alert("Il n'y a pas de code Id");
+	} else if (id.length <= 4 )
+	{
+		alert("vous n'avez pas bien mis votre code Id");
+	} else if (id.length >=9){
+		alert("Votre code Id est trop long");
+	}
+
+	else if(id == codeId) { 
+		document.write(INS.html);
+	}
+
+	else if ( id !== codeId){
+		alert("le code ID n'est pas le votre");
+	}
+}  
+
+</script>
+	 
+	</body>
+</Html>

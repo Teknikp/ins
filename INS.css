@@ -1,0 +1,247 @@
+
+body{
+	background-color: #ffffff;
+	text-align: center;
+}
+
+h1.INS{ 
+	background-color: red;
+	text-align: center;
+	color: grey;
+}
+
+
+div.tete{
+	width: 99%;
+	text-align: center;
+	margin: 5px;
+	border: 1px solid #dcdcdc ;
+	box-shadow: 0 0 3px 2px red;
+	height: 100px;
+	background-color: red;
+}
+
+
+
+input.search{
+	padding: 5px;
+	-webkit-border-radius: 25px;
+	border-radius: 33px;
+	background-color: none;
+	cursor: inherit;
+	float: right;
+	background-color: none;
+	box-shadow: 0 0 3px 3px grey;
+
+}
+
+div.menu{
+	-webkit-border-radius: 15px;
+	border: 2px solid grey;
+	border-style: outset;
+	box-shadow: 0 0 3px 4px #4e7dff;
+	margin: 5px;
+	text-align: center;
+	padding: 12px;
+	background-color: red;
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+
+input.Dev{
+	-webkit-border-radius: 35px;
+	border-radius: 25px;
+	padding: 12px;
+	border-color: red;
+	background-color: #affa;
+	cursor: pointer;
+	width: 130px;
+}
+
+input.cours{
+	-webkit-border-radius: 35px;
+	border-radius: 25px;
+	padding: 12px;
+	border-color: red;
+	background-color: #affa;
+	cursor: pointer;
+	width: 130px;
+}
+
+input.CaL{
+	-webkit-border-radius: 35px;
+	border-radius: 25px;
+	padding: 12px;
+	border-color: red;
+	background-color: #affa;
+	cursor: pointer;
+	width: 130px;
+}
+
+input.code{
+	-webkit-border-radius: 35px;
+	border-radius: 25px;
+	padding: 12px;
+	border-color: red;
+	background-color: #affa;
+	cursor: pointer;
+	width: 130px;
+}
+
+
+fieldset.fieldset{
+	margin-left: 15%;
+	margin-right: 40%;
+	border: 5px solid;
+	background-color: red;
+	box-shadow: 0 0 2px 2px black;
+	width: 250px;
+	height: 150px;
+	-webkit-border-radius: 23px;
+	text-align: center;
+	float: right;
+}
+
+
+h1.commentaire{
+	color: black
+}
+
+
+fieldset.MATHS{
+	margin-top: 0%;
+	margin-left: 24%;
+	margin-right: 40%;
+	border: 5px solid;
+	background-color: red;
+	box-shadow: 0 0 2px 2px black;
+	width: 250px;
+	height: 150px;
+	-webkit-border-radius: 23px;
+	cursor: pointer;
+}
+
+h1.MATHS{
+	text-align: center;
+	color: black;
+	margin-top:22%;
+}
+
+fieldset.CL{
+	margin-top: -13%;
+	margin-left: 50%;
+	margin-right: 0%;
+	border: 5px solid;
+	background-color: red;
+	box-shadow: 0 0 2px 2px black;
+	width: 250px;
+	height: 150px;
+	-webkit-border-radius: 23px;
+	cursor: pointer;
+}
+
+h1.CL{
+	text-align: center;
+	color: black;
+	margin-top:15%;
+}
+
+fieldset.LANGUES{
+	margin-top: 4%;
+	margin-left: 24%;
+	margin-right: 0%;
+	border: 5px solid;
+	background-color: red;
+	box-shadow: 0 0 2px 2px black;
+	width: 250px;
+	height: 150px;
+	-webkit-border-radius: 23px;
+	cursor: pointer;
+}
+
+h1.LANGUES{
+	text-align: center;
+	color: black;
+	margin-top: 22%;
+}
+
+
+
+fieldset.PHY{
+	margin-top: -13%;
+	margin-left: 50%;
+	margin-right: 0%;
+	border: 5px solid;
+	background-color: red;
+	box-shadow: 0 0 2px 2px black;
+	width: 250px;
+	height: 150px;
+	-webkit-border-radius: 23px;
+	cursor: pointer;
+}
+
+h1.PHY{
+	text-align: center;
+	color: black;
+	margin-top: 22%;
+}
+
+svg.esv{
+	margin-left: 40%;
+}
+
+h1.actu{
+	box-shadow: 0  0 3px 5px grey;
+	margin-top: 10%;
+	margin-left: 4%;
+	margin-right: 4%;
+	background-color: red;
+}
+
+h2.actu{
+	margin-top: -2%;
+	margin-left: 5%;
+
+}
+
+div.actu{
+	margin-top: 20px;
+	border: 5px solid grey ;
+	width: 14%;
+	height: 30%;
+	float: right;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+div.actus{
+	margin-top: -380px;
+	border: 5px solid grey ;
+	width: 14%;
+	height: 30%;
+	float: right;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+div.enTete{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 35px;
+	background-color: red;
+}
+
+input.Geometrie{
+	margin:7px;
+	margin-left: 0px;
+	height:22px;
+	margin-right: 22px
+	background-color:    red;
+	border:2px;
+
+
+
+}
+
+
